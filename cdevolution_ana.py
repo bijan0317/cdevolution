@@ -167,7 +167,4 @@ def update():
     print("%.5f" %x[30,60],"%.5f" %y[30,60],ccount,cmx,cmi,dcount,dmx,dmi,ecount,ecountr,coexist,extinction)  # <- the step at which the input values change
 
 import pycxsimulator
-pycxsimulator.GUI(stepSize = 100).start(func=[initialize, observe, update])
-        
-        
-        
+pycxsimulator.GUI(stepSize = 100).start(func=[initialize, observe, update])        
