@@ -59,9 +59,6 @@ def initialize():
     
     nextg=g
     
-   
-       
-
 def observe():
     global g,nextg,z,v,countc,countd,countv,cdata,ddata
     
@@ -210,4 +207,3 @@ def update():
 #-----------------
 import pycxsimulator
 pycxsimulator.GUI(stepSize = 100).start(func=[initialize, observe, update])
- 
